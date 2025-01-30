@@ -1,13 +1,9 @@
 ﻿<!-- SVG图标:标签 如下 -->
 <!-- "M64 160v299c0 34 13.4 66.6 37.4 90.6l352 352c50 50 131 50 181 0l267-267c50-50 50-131 0-181l-352-352c-24-24-56.6-37.4-90.6-37.4H160C107 64 64 107 64 160z m224 64a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" -->
+<!-- L T R B -->
 
 <local:MyHint Text="{cave}" IsWarn="False" Margin="0,0,0,15" ToolTip="回声洞"/>
 
-<local:MyCard Title="作者" Margin="0,0,0,15" CanSwap="True" IsSwaped="True" ToolTip="“这不点开看看”" >
-	<local:MyListItem  Margin="25,40,23,15" 
-		            Logo="PCL\icons\headimage_remade.png" Title="盘旋进攻蛇" Info="“我再也忍受不了盘旋了!”" 
-					EventType="弹出窗口" EventData="厉不厉害你蛇哥|你干嘛\n哎呦~~" Type="Clickable" ToolTip="“没错！”" />
-</local:MyCard>
 
 <!-- <local:MyCard Title="回声洞"  Margin="0,0,0,15"  CanSwap="True" IsSwaped="False" >
         <StackPanel Margin="25,40,23,15" >
@@ -20,7 +16,8 @@
 
 <!-- TEST! -->
 <!--<TextBlock Source="https://v1.hitokoto.cn/?c=f&encode=text" HorizontalAlignment="Center"/>-->
-<!-- <local:MyButton Margin="6,5,6,6" Grid.Column="1" Height="35" ColorType="Red" Text="刷新主页" EventType="刷新主页" /> -->	
+<!-- <local:MyButton Margin="6,5,6,6" Grid.Column="1" Height="35" ColorType="Red" Text="刷新主页" EventType="刷新主页" /> --> 
+
 
 
 
@@ -42,23 +39,36 @@
         	Title="你知道吗:" Info="{hint}"  />
 		<!-- Line 1 -->
 		<StackPanel Orientation="Horizontal" HorizontalAlignment="left">
-			<local:MyButton Margin="0,0,10,5" Width="115" Height="35" 
-        	        	Text="Minecraft 1.21" EventType="启动游戏" EventData="1.21" ColorType="HighLight" />
-			<local:MyButton Margin="5,0,5,5" Width="115" Height="35" 
-        	            Text="Minecraft 1.20.4" EventType="启动游戏" EventData="1.20.4" ColorType="HighLight" />
-			<local:MyButton Margin="10,0,0,5" Width="115" Height="35"
-        	            Text="MinecraftBE" EventType="打开网页" EventData="minecraft://" ToolTip="如果你的电脑上安装了Minecraft基岩版，按下这个按钮将会以URL Scheme的方式启动它。" ColorType="HighLight" />
+			<local:MyButton Margin="0,0,10,5" Width="80" Height="43" 
+        	        	Text="MC1.21" EventType="启动游戏" EventData="1.21" ColorType="HighLight"  />
+			<local:MyButton Margin="2,0,5,5" Width="80" Height="43" 
+        	            Text="MC1.20.4" EventType="启动游戏" EventData="1.20.4" ColorType="HighLight" />
 		</StackPanel>
+
 		<!-- Line 2 -->
 		<StackPanel Orientation="Horizontal" HorizontalAlignment="left" Margin="0,10,0,0">
-			<local:MyButton Margin="0,0,10,0" Width="115" Height="35" 
+			<local:MyButton Margin="0,0,10,5" Width="80" Height="44" 
         	        	Text="清理垃圾" EventType="清理垃圾" ColorType="HighLight" />
-			<local:MyButton Margin="5,0,5,0" Width="115" Height="35" 
+			<local:MyButton Margin="2,0,0,5" Width="80" Height="44"
+        	            Text="MCBE" EventType="打开网页" EventData="minecraft://" ToolTip="如果你的电脑上安装了Minecraft基岩版，按下这个按钮将会以URL Scheme的方式启动它。" ColorType="HighLight" />
+		</StackPanel>
+
+		<!-- Line 3 -->
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="left" Margin="0,10,0,0">
+			<local:MyButton Margin="0,0,10,0" Width="80" Height="44" 
         	            Text="内存优化" EventType="内存优化" ColorType="HighLight" />
-			<local:MyButton Margin="10,0,0,0" Width="115" Height="35" 
+			<local:MyButton Margin="2,0,0,0" Width="80" Height="44" 
         	            Text="开赌！！" EventType="今日人品" ColorType="Red" />
 		</StackPanel>
 	</StackPanel>
+	<Grid Margin="0,0,0,20" Panel.ZIndex="1" HorizontalAlignment="Center" VerticalAlignment="Top">
+          <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="33"/>
+                <ColumnDefinition Width="20"/>
+          </Grid.ColumnDefinitions>
+    </Grid>
+    <Calendar HorizontalAlignment="Right" Margin="0,85,25,0" />
 </local:MyCard>
 
 <local:MyCard Title="常用网站" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
@@ -100,6 +110,13 @@
 									Logo="M512.33 511m-400 0a400 400 0 1 0 800 0 400 400 0 1 0-800 0Z M625.97 723.49L533.1 681.2a50.084 50.084 0 0 0-41.53 0l-92.87 42.29c-33.17 15.11-70.86-9.14-70.86-45.59V356.34c0-27.67 22.43-50.1 50.1-50.1h268.8c27.67 0 50.1 22.43 50.1 50.1V677.9c0 36.45-37.69 60.7-70.86 45.59z M415.36 379.76m26.12 0l141.71 0q26.12 0 26.12 26.12l0 0q0 26.12-26.12 26.12l-141.71 0q-26.12 0-26.12-26.12l0 0q0-26.12 26.12-26.12Z" />
 	</StackPanel>
 </local:MyCard>
+
+<local:MyCard Title="作者" Margin="0,0,0,15" CanSwap="True" IsSwaped="True" ToolTip="“这不点开看看”" >
+	<local:MyListItem  Margin="25,40,23,15" 
+		            Logo="PCL\icons\headimage_remade.png" Title="盘旋进攻蛇" Info="“我再也忍受不了盘旋了!”" 
+					EventType="弹出窗口" EventData="厉不厉害你蛇哥|你干嘛\n哎呦~~" Type="Clickable" ToolTip="“没错！”" />
+</local:MyCard>
+
 
 <!-- 
 
