@@ -1,0 +1,166 @@
+﻿<!-- SVG图标:标签 如下 -->
+<!-- "M64 160v299c0 34 13.4 66.6 37.4 90.6l352 352c50 50 131 50 181 0l267-267c50-50 50-131 0-181l-352-352c-24-24-56.6-37.4-90.6-37.4H160C107 64 64 107 64 160z m224 64a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" -->
+
+<local:MyHint Text="{cave}" IsWarn="False" Margin="0,0,0,15" ToolTip="回声洞"/>
+
+<local:MyCard Title="作者" Margin="0,0,0,15" CanSwap="True" IsSwaped="True" ToolTip="“这不点开看看”" >
+	<local:MyListItem  Margin="25,40,23,15" 
+		            Logo="PCL\icons\headimage_remade.png" Title="盘旋进攻蛇" Info="“我再也忍受不了盘旋了!”" 
+					EventType="弹出窗口" EventData="厉不厉害你蛇哥|你干嘛\n哎呦~~" Type="Clickable" ToolTip="“没错！”" />
+</local:MyCard>
+
+<!-- <local:MyCard Title="回声洞"  Margin="0,0,0,15"  CanSwap="True" IsSwaped="False" >
+        <StackPanel Margin="25,40,23,15" >
+		<TextBlock Text="{cave}" />
+		<local:MyListItem Margin="0,0,0,0"
+        	Logo="PCL\icons\egg.png"
+        	Title="Cave:" Info="{cave}"  />
+        </StackPanel>
+</local:MyCard> -->
+
+<!-- TEST! -->
+<!--<TextBlock Source="https://v1.hitokoto.cn/?c=f&encode=text" HorizontalAlignment="Center"/>-->
+<!-- <local:MyButton Margin="6,5,6,6" Grid.Column="1" Height="35" ColorType="Red" Text="刷新主页" EventType="刷新主页" /> -->	
+
+
+
+
+<!-- 第一个大卡片 -->
+<local:MyCard Title="Shortcut" Margin="0,0,0,15" CanSwap="False" >
+	<!-- 右上角的小图标 -->
+	<!-- 引用自SYC -->
+	<!-- https://github.com/SYBass/SYC -->
+	<local:MyIconButton LogoScale="1.2" Logo="M230.4 947.2v-76.8h243.2v-130.5856c-129.1776-17.6128-230.4768-122.8288-242.0992-253.824A166.4 166.4 0 0 1 76.8 320V128h153.6V76.8h563.2v51.2h153.6v192a166.4 166.4 0 0 1-154.752 165.9904c-11.5712 130.9696-112.8704 236.1856-242.0224 253.7984L550.4 870.4H793.6v76.8H230.4zM716.8 153.6H307.2v307.2a204.8 204.8 0 0 0 198.4 204.6976L512 665.6a204.8 204.8 0 0 0 204.8-204.8V153.6zM230.4 204.8H153.6v115.2a89.6 89.6 0 0 0 76.8 88.704V204.8z m640 0h-76.8v203.8784a89.6 89.6 0 0 0 76.8-88.6784V204.8z"
+                                    	Height="21" Margin="0,10,10,0" HorizontalAlignment="Right" VerticalAlignment="Top"
+                                    	ToolTip="今日人品" EventType="今日人品" />
+	<local:MyIconButton LogoScale="1.2" Logo="M384 298.666667v-8.533334c0-21.333333 4.266667-34.133333 8.533333-42.666666 4.266667-8.533333 12.8-17.066667 25.6-25.6 8.533333-4.266667 21.333333-8.533333 42.666667-8.533334h102.4c21.333333 0 34.133333 4.266667 42.666667 8.533334 8.533333 4.266667 17.066667 12.8 25.6 25.6 4.266667 8.533333 8.533333 21.333333 8.533333 42.666666V298.666667h149.333333c12.8 0 21.333333 8.533333 21.333334 21.333333s-8.533333 21.333333-21.333334 21.333333h-554.666666c-12.8 0-21.333333-8.533333-21.333334-21.333333s8.533333-21.333333 21.333334-21.333333H384z m42.666667 0h170.666666v-8.533334c0-12.8 0-17.066667-4.266666-21.333333 0-4.266667-4.266667-4.266667-8.533334-8.533333 0-4.266667-8.533333-4.266667-21.333333-4.266667h-102.4c-12.8 0-17.066667 0-21.333333 4.266667-4.266667 0-4.266667 4.266667-8.533334 8.533333-4.266667 0-4.266667 8.533333-4.266666 21.333333V298.666667zM341.333333 405.333333V682.666667c0 34.133333 0 46.933333 4.266667 55.466666 4.266667 8.533333 8.533333 12.8 12.8 17.066667 12.8 12.8 21.333333 12.8 51.2 12.8h209.066667c29.866667 0 38.4 0 46.933333-8.533333 8.533333-4.266667 12.8-8.533333 12.8-17.066667 4.266667-12.8 4.266667-21.333333 4.266667-59.733333V405.333333c0-12.8 8.533333-21.333333 21.333333-21.333333s21.333333 8.533333 21.333333 21.333333v285.866667c0 42.666667-4.266667 55.466667-12.8 72.533333-8.533333 17.066667-17.066667 25.6-34.133333 34.133334-12.8 8.533333-25.6 12.8-64 12.8H409.6c-38.4 0-51.2-4.266667-64-12.8s-25.6-21.333333-34.133333-34.133334c-8.533333-17.066667-12.8-34.133333-12.8-72.533333V405.333333c0-12.8 8.533333-21.333333 21.333333-21.333333s21.333333 8.533333 21.333333 21.333333z m106.666667 21.333334c12.8 0 21.333333 8.533333 21.333333 21.333333v213.333333c0 12.8-8.533333 21.333333-21.333333 21.333334s-21.333333-8.533333-21.333333-21.333334v-213.333333c0-12.8 8.533333-21.333333 21.333333-21.333333z m128 0c12.8 0 21.333333 8.533333 21.333333 21.333333v213.333333c0 12.8-8.533333 21.333333-21.333333 21.333334s-21.333333-8.533333-21.333333-21.333334v-213.333333c0-12.8 8.533333-21.333333 21.333333-21.333333z"
+                                    	Height="21" Margin="0,10,30,0" HorizontalAlignment="Right" VerticalAlignment="Top"
+                                    	ToolTip="内存优化物理减少1/3的内存，不仅限于MC！" EventType="内存优化" />
+	<StackPanel Margin="25,40,23,15">
+		<local:MyListItem Margin="0,0,0,8"
+        	Logo="pack://application:,,,/images/Blocks/CommandBlock.png"
+        	Title="你知道吗:" Info="{hint}"  />
+		<!-- Line 1 -->
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="left">
+			<local:MyButton Margin="0,0,10,5" Width="115" Height="35" 
+        	        	Text="Minecraft 1.21" EventType="启动游戏" EventData="1.21" ColorType="HighLight" />
+			<local:MyButton Margin="5,0,5,5" Width="115" Height="35" 
+        	            Text="Minecraft 1.20.4" EventType="启动游戏" EventData="1.20.4" ColorType="HighLight" />
+			<local:MyButton Margin="10,0,0,5" Width="115" Height="35"
+        	            Text="MinecraftBE" EventType="打开网页" EventData="minecraft://" ToolTip="如果你的电脑上安装了Minecraft基岩版，按下这个按钮将会以URL Scheme的方式启动它。" ColorType="HighLight" />
+		</StackPanel>
+		<!-- Line 2 -->
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="left" Margin="0,10,0,0">
+			<local:MyButton Margin="0,0,10,0" Width="115" Height="35" 
+        	        	Text="清理垃圾" EventType="清理垃圾" ColorType="HighLight" />
+			<local:MyButton Margin="5,0,5,0" Width="115" Height="35" 
+        	            Text="内存优化" EventType="内存优化" ColorType="HighLight" />
+			<local:MyButton Margin="10,0,0,0" Width="115" Height="35" 
+        	            Text="开赌！！" EventType="今日人品" ColorType="Red" />
+		</StackPanel>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="常用网站" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+		<local:MyHint Text="有一部分需要魔法才能进入！" Margin="1,0,0,8" HorizontalAlignment="Left" />
+		<local:MyListItem  Margin="0,0,0,8" 
+		            Logo="PCL\icons\curseforge.png" Title="CurseForge" Info="Mod,Texture And Maps"
+		            EventType="打开网页" EventData="https://www.curseforge.com/minecraft" Type="Clickable" />
+		<local:MyListItem Margin="0,0,0,8"
+                    Logo="PCL\icons\mcwiki.png" Title="MC WIKI" Info="我的世界中文wiki"
+		            EventType="打开网页" EventData="https://zh.minecraft.wiki/" Type="Clickable" />					
+		<local:MyListItem Margin="0,0,0,8"
+                    Logo="pack://application:,,,/images/Blocks/Fabric.png" Title="MC百科" Info="“不忘初心，知足常乐。安贫乐道，与世无争”"
+		            EventType="打开网页" EventData="mcmod.cn" Type="Clickable" />
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Margin="0,0,0,15" Title="高速下载" CanSwap="True" IsSwaped="True" Grid.Column="0">
+    <StackPanel Margin="25,40,23,15">
+	<local:MyHint Text="使用http:或https:的下载链接！" IsWarn="False" HorizontalAlignment="left" />
+
+    	    <Grid>
+            	<Grid.ColumnDefinitions>
+            		<ColumnDefinition Width="1*" />
+            		<ColumnDefinition Width="60" />
+            	</Grid.ColumnDefinitions>
+        		<TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="4,4,18,0"  />
+        		<local:MyTextBox x:Name="web" Grid.Column="0" Margin="0,4,0,0"  Height="35"/>
+        		<local:MyIconButton LogoScale="1.1" Logo="M475.5456 761.91744c10.05568 10.07616 23.26528 15.07328 36.4544 15.07328s26.39872-4.99712 36.4544-15.07328l264.27392-264.27392a51.58912 51.58912 0 0 0-72.92928-72.92928l-176.25088 176.27136V140.30848a51.56864 51.56864 0 1 0-103.13728 0v460.6976l-176.25088-176.27136a51.58912 51.58912 0 0 0-72.92928 72.92928L475.5456 761.91744z M826.71616 733.0816a51.56864 51.56864 0 0 0-51.56864 51.56864v40.67328H248.832v-40.67328a51.56864 51.56864 0 1 0-103.13728 0v92.24192a51.56864 51.56864 0 0 0 51.56864 51.56864h629.43232a51.56864 51.56864 0 0 0 51.56864-51.56864v-92.24192a51.52768 51.52768 0 0 0-51.54816-51.56864z"
+                                Width="80" Height="32" Margin="0,4,10,0" HorizontalAlignment="Center" Padding="13,0,13,0" Grid.Column="1"
+                                ToolTip="下载文件" EventData="{Binding ElementName=web,Path=Text}" EventType="下载文件" />
+			</Grid>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我的收藏夹" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+			<local:MyIconTextButton Margin="0,0,0,0" HorizontalAlignment="left" Text="BlockPixel!" EventType="打开网页" EventData="https://www.planetminecraft.com/texture-pack/blockpixel-texture/" 
+									Logo="M512.33 511m-400 0a400 400 0 1 0 800 0 400 400 0 1 0-800 0Z M625.97 723.49L533.1 681.2a50.084 50.084 0 0 0-41.53 0l-92.87 42.29c-33.17 15.11-70.86-9.14-70.86-45.59V356.34c0-27.67 22.43-50.1 50.1-50.1h268.8c27.67 0 50.1 22.43 50.1 50.1V677.9c0 36.45-37.69 60.7-70.86 45.59z M415.36 379.76m26.12 0l141.71 0q26.12 0 26.12 26.12l0 0q0 26.12-26.12 26.12l-141.71 0q-26.12 0-26.12-26.12l0 0q0-26.12 26.12-26.12Z" />
+	</StackPanel>
+</local:MyCard>
+
+<!-- 
+
+全部通用的属性：
+ - Width、Height：设置宽度与高度
+ - ToolTip：设置鼠标指向时的提示文本
+ - Margin：调整外边距（格式为 左,上,右,下。例如 Margin="0,0,0,2" 即为 2 单位的下边距）
+ - HorizontalAlignment：设置横向对齐方式，居左：Left、居中：Center、居右：Right、拉伸（默认）：Stretch
+ - VerticalAlignment：设置纵向对齐方式，居上：Top、居中：Center、居下：Bottom、拉伸（默认）：Stretch
+ - IsHitTestVisible：该控件是否响应交互（点击、指向动画等），True 为是（默认），False 为否
+
+TextBlock（纯文本）：
+ - Text：设置显示的文本（如果要使用引号等特殊字符，自行百度 XAML 转义）
+ - TextWrapping：开启自动换行
+ - FontSize：设置字号
+ - FontWeight：设置为 Bold 时，文字加粗
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+
+Image（图片）：
+ - Source：要显示的图片的网址，或 PCL 内置图片位置
+
+local:MyCard（卡片）：
+ - Title：设置显示的标题文本
+ - CanSwap：卡片是否可以折叠，True 为是，False 为否
+ - IsSwaped：卡片是否默认折叠，要求 CanSwap 必须为 True
+ - HorizontalAlignment：若使用，要求 CanSwap 必须为 False
+ - UseAnimation：是否在展开等高度改变时触发动画，True 为是（默认），False 为否
+ - SwapLogoRight：卡片折叠时的箭头是朝下还是朝右，True 为朝右，False 为朝下（默认）
+ - HasMouseAnimation：是否在鼠标指向时改变卡片颜色，True 为是（默认），False 为否
+
+local:MyHint（提示条）：
+ - Text：设置显示的文本（&#xA; 代表换行）
+ - IsWarn：设置为 True 代表警告样式，False 代表提示样式
+
+local:MyButton（按钮）：
+ - Text：设置显示的文本
+ - Padding：设置内边距，格式与 Margin 一致
+ - ColorType：设置颜色主题（Highlight 为当前启动器的主题颜色，Red 为红色，默认为黑色）
+ - EventType、EventData：触发特定事件
+
+local:MyTextButton（文本按钮）：
+ - Text：设置显示的文本
+ - EventType、EventData：触发特定事件
+
+local:MyListItem（列表项）：
+ - Logo：列表项的图标（所指定的可以是链接也可以是文件路径）
+ - Title：列表项的大标题
+ - Info：列表项的详细信息，它将会以灰色显示在大标题下方
+ - Type：若留空仅单纯展示信息，设置为 Clickable 触发相应活动
+
+local:MyIconTextButton（带图标的按钮）：
+ - Text：设置显示的文本
+ - Logo：设置显示的图标
+ - LogoScale：设置图标的缩放，默认为 1
+ - ColorType：设置颜色主题（Highlight 为当前启动器的主题颜色，默认为黑色）
+ - EventType、EventData：触发特定事件
+
+local:MyIconButton（图标按钮）：
+ - Logo：设置显示的图标
+ - LogoScale：设置图标的缩放，默认为 1
+ - Theme：设置颜色主题，Color（默认）为当前启动器的主题颜色，也可设置为 White、Black、Red
+ - EventType、EventData：触发特定事件
+
+-->
